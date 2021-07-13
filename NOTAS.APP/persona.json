@@ -1,0 +1,12 @@
+{
+    "nombre": "Gerardo",
+    "edad": 23,
+    "peso": 80,
+    "genero": "Masculino",
+    "altura": 173,
+    "nacionalidad": "Mexicano",
+    "respirar": "function(){console.log('Estoy respirando');}",
+    "comer": "()=> {console.log('Estoy respirando');}",
+    "miArreglo":[],
+    "miObjeto": {}
+}
