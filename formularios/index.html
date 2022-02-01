@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Primer formulario</title>
+  </head>
+  <body>
+    <!-- escribí tu código aquí -->
+    <form action="resultado.html" method="POST">
+    
+
+  <p>
+    <label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre">
+  </p>
+  
+
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+  </p>
+  
+  <p>
+    
+    <label for="contraseña">Constraseña:</label>
+    <input type="password" name="password" id="contraseña">
+  </p>
+
+  <p>
+    <input type="submit" value="ENVIAR">
+</p>
+
+
+
+<label for="mascota">¿Tenés mascota?</label>
+<input type="radio" name="mascota" value="Sí">
+<input type="radio" name="mascota" value="No">
+ <!-- Aquí van los campos -->
+
+ <label for="hobby">¿Cuáles son tus hobbies?</label>
+<input type="checkbox" name="hobby" value="Pescar">
+<input type="checkbox" name="hobby" value="Correr">
+<input type="checkbox" name="hobby" value="Yoga">
+
+<form action="resultado.html" method="POST">
+  <select name="mes">
+  <option value="1">Enero</option>
+  <option value="2">Febrero</option>
+  <option value="3">Marzo</option>
+  <option value="4">Abril</option>
+  <option value="5">Mayo</option>
+  <option value="6">Junio</option>
+  <option value="7">Julio</option>
+  <option value="8">Agosto</option>
+  <option value="9">Septiembre</option>
+  <option value="10">Octubre</option>
+  <option value="11">Noviembre</option>
+  <option value="12">Diciembre</option>
+  </select>
+
+
+  
+
+
+</form>
+<!-- Formulario-->
+    <!-- action va el archivo a donde llegará la información -->
+<form action="resultado.html" method="POST">
+  <label for="comentario">Dejanos tu comentario</label>
+  <!-- escribí tu código aquí -->
+  <textarea name="comentario" id="comentario">Contenido</textarea>
+  <button type="submit">Enviar</button>
+  <button type="reset">Borrar</button>
+
+
+  <input type="date" name="fecha" value="2021-07-22" min="2018-01-01" max="2022-12-31">
+
+</form>
+
+
+  </body>
+</html>
