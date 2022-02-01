@@ -1,0 +1,60 @@
+.frase-cortazar {
+    display: flex;
+    flex-direction: column-reverse;
+  
+  }
+
+  .frase {
+    display: flex;
+    width: 350px;
+    flex-direction: row-reverse;
+  }
+
+  .frase {
+    display: flex;
+    width: 350px;
+    flex-direction: row-reverse;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-around
+  }
+  
+  .enlaces {
+    display: flex;
+  }
+
+
+  .juego-dardos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+      
+  }
+
+  .homero-sapiens {
+    display: flex;
+    width: 50%;
+  }
+  
+  .sapiens-5 {
+   order: 4;
+  
+  }
+
+  .tetris {
+    display: flex;
+  }
+  
+  .pieza-tetris {
+    display: flex;
+    align-self: flex-end;
+   
+  }
+
