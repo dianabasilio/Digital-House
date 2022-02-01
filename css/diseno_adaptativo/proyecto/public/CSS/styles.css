@@ -1,0 +1,68 @@
+* { box-sizing: border-box }
+div {
+    width: 500px;
+    padding: 10px;
+    border: solid 5px red;
+    margin: 20px;
+    box-sizing:border-box;
+  }
+  
+header {
+  /* escribí las reglas para el h1 aquí */
+  
+      background-color: lightseagreen;
+      color: white;
+      font-size:28px;
+      border-bottom: solid 3px indigo;
+      padding: 22px;
+      margin-bottom: 15px;
+      text-align: center;
+      box-sizing:border-box;
+  }
+
+section {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 15px;
+  background-color: gainsboro;
+  padding-left: 12px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border: 1px dashed black;
+  border-radius:5px;
+  text-align: center;
+  box-sizing:border-box;
+
+}
+
+footer{
+  background-color: rebeccapurple;
+  color: white;
+  border-top: 1px lightseagreen;
+  padding: 12px;
+  height: 40px;
+  text-align: center;
+  box-sizing:border-box;
+}
+
+.arriba {
+  background-color: blueviolet;
+  height: 40vh;
+  width: 100%;
+  
+  }
+  
+  .abajo {
+  background-color: brown;
+  height: 60vh;
+  width: 100%;
+  
+  }
+
+
+@media (min-width: 700px){
+ body {
+ background: rgb(215, 226, 215);
+ }
+}
+   
