@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Carga de imágenes</title>
+  </head>
+  <body>
+    <form action="upload" method="POST" enctype="multipart/form-data">
+
+    </form>
+  </body>
+</html>
+
+const express = require('express');
+const router = express.Router();
+
+const multer =require('multer')
+
+let storage = multer.diskStorage({
+    destination: ( req, file, callback) =>{
+        callback(null, 'archivoo/dondeseguardaa/usaDirname');
+        },
+
+    filename: (req, file, callback) => {
+        callback(null,'dateNow/path.extname' )
+
+    }
+});
+
+let upload = multer({storage});
+
+router.post('/register',upload.any() );
+
+var upload = multer({ storage: storage })
+
+app.post('/register', upload.single('avatar'), (req, res, next) => {
+  
+  if (req.file){
+    res.send()
+  } else {
+    let error = new Error('message')
+   next (error);
+    
+  }
+})
